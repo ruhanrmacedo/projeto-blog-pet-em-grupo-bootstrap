@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Posts</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+   
+    <nav class="nav">
+        <ul>
+            <li><a href="cadastro_post.html">Criar Post</a>
+            <li><a href="listagem_post_admin.html">Listagem</a>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <h1>Meus Posts</h1>
+        <table id="postsTable">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Categoria</th>
+                    <th>Data de Criação</th>
+                    <th>Foto</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Posts serão carregados aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts/listagem_post_admin.js"></script>
+</body>
+</html>
