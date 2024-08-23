@@ -53,9 +53,10 @@ body {
 .card {
     background-color: #ECECB9; 
     border: none;
-    max-width: 300px;
-    margin: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 /* Título do cartão */
@@ -68,16 +69,16 @@ body {
     color: #333;
 }
 
-/* Corpo do cartão */
-.card-body {
-    background-color: #FEFBD8; 
-}
 
 /* Imagem do cartão */
 .card-img-top {
     width: 100%;
     height: 200px;
     object-fit: cover; 
+}
+
+.col {
+    margin-bottom: 20px;
 }
 
 /* Estilo do formulário de login */
@@ -89,4 +90,18 @@ footer {
     width: 100%;
     background-color: #987D9A; 
     padding: 10px 0;
+}
+
+.footer a {
+    color: #FEFBD8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #BB9AB1;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #987D9A; 
 }
