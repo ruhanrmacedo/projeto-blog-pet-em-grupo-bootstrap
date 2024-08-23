@@ -5,6 +5,26 @@ body {
     color: #333; /* Cor de texto para contraste */
 }
 
+.container-home {
+    padding-bottom: 40px; 
+}
+
+/* Estilo do link Leia mais artigos */
+.mt-4.text-center {
+    position: relative;
+    z-index: 10; 
+}
+
+.mt-4.text-center a {
+    color: #987D9A; 
+    text-decoration: none; 
+}
+
+.mt-4.text-center a:hover {
+    color: #BB9AB1; 
+    text-decoration: underline; 
+}
+
 /* Estilo do cabeçalho e do rodapé */
 .header, .footer {
     background-color: #987D9A;
@@ -84,7 +104,7 @@ body {
 /* Estilo do formulário de login */
 footer {
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
     height: 50px;
     width: 100%;

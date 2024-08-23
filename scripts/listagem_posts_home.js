@@ -79,10 +79,15 @@ document.addEventListener('DOMContentLoaded', () => {
         link.addEventListener('click', (event) => {
             event.preventDefault();
             const categoria = link.textContent.trim().toUpperCase();
-            const postsFiltrados = posts.filter(post => post.categoria === categoria);
-            rendederizarCards(postsFiltrados);
-
-            tituloElement.textContent = `Posts de ${categoria.charAt(0) + categoria.slice(1).toLowerCase()}`;
+            if (categoria === 'TODOS') {
+                rendederizarCards(posts);
+                tituloElement.textContent = 'Todos os posts';
+                return;
+            } else {
+                const postsFiltrados = posts.filter(post => post.categoria === categoria);
+                rendederizarCards(postsFiltrados);
+                tituloElement.textContent = `Posts de ${categoria.charAt(0) + categoria.slice(1).toLowerCase()}`;
+            }
         });
     });
 
