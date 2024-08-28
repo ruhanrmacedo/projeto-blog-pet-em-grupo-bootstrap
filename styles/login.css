@@ -1,0 +1,25 @@
+.bgc_lighter_color{
+background-color: #FEFBD8;
+}
+.bgc_light_color{
+background-color: #EECEB9;
+}
+.bgc_dark_color{
+background-color: #BB9AB1;
+}
+.bgc_darker_color{
+ background-color: #987D9A;
+}
+.white_color{
+    color: #ffffff;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:focus{
+    background-color: #987D9A;
+    border: 3px solid #BB9AB1;
+   
+}
+.btn-primary:active{
+    transform: translateY(1px);
+    background-color: #987D9A !important;
+    border: 3px solid #BB9AB1 !important;
+}
