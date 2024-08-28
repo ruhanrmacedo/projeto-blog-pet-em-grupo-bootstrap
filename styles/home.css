@@ -1,0 +1,126 @@
+/* Aplicar o background da página */
+body {
+    background-color: #FEFBD8; 
+    font-family: Arial, sans-serif;
+    color: #333; /* Cor de texto para contraste */
+}
+
+.container-home {
+    padding-bottom: 40px; 
+}
+
+/* Estilo do link Leia mais artigos */
+.mt-4.text-center {
+    position: relative;
+    z-index: 10; 
+}
+
+.mt-4.text-center a {
+    color: #987D9A; 
+    text-decoration: none; 
+}
+
+.mt-4.text-center a:hover {
+    color: #BB9AB1; 
+    text-decoration: underline; 
+}
+
+/* Estilo do cabeçalho e do rodapé */
+.header, .footer {
+    background-color: #987D9A;
+    color: white;
+}
+
+/* Botão de login no cabeçalho */
+.header .btn-outline-light, .footer .btn-outline-light {
+    border-color: #FEFBD8;
+    color: #FEFBD8;
+}
+
+.header .btn-outline-light:hover, .footer .btn-outline-light:hover {
+    background-color: #FEFBD8;
+    color: #987D9A;
+}
+
+/* Estilo da barra de navegação */
+.navbar-light {
+    background-color: #ECECB9; 
+}
+
+/* Cor do link */
+.navbar-light .nav-link {
+    color: #987D9A; 
+}
+
+/* Cor do link ao passar o mouse */
+.navbar-light .nav-link:hover {
+    color: #BB9AB1; 
+}
+
+/* Botão "Seja um escritor" */
+.btn-danger {
+    background-color: #987D9A; 
+    border-color: #987D9A;
+}
+
+/* Botão "Seja um escritor" ao passar o mouse */
+.btn-danger:hover {
+    background-color: #BB9AB1; 
+    border-color: #BB9AB1;
+}
+
+/* Estilo dos cartões de post */
+.card {
+    background-color: #ECECB9; 
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+}
+
+/* Título do cartão */
+.card-title {
+    color: #987D9A; 
+}
+
+/* Texto do cartão */
+.card-text {
+    color: #333;
+}
+
+
+/* Imagem do cartão */
+.card-img-top {
+    width: 100%;
+    height: 200px; 
+
+}
+
+
+/* Estilo do formulário de login */
+footer {
+    text-align: center;
+    position: static;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #987D9A; 
+    padding: 10px 0;
+}
+
+.footer a {
+    color: #FEFBD8;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #BB9AB1;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #987D9A; 
+}
